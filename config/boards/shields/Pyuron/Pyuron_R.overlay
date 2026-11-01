@@ -37,11 +37,20 @@
 
 &trackball_listener_L {
     status = "okay";
+    device = <&trackball_split_L>;
+    input-processors =
+        <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
+        <&zip_xy_scaler 1 16>,
+        <&zip_scroll_scaler 1 10>,
+        <&zip_xy_to_scroll_mapper>;
 };
 
 &trackball_listener_R {
     status = "okay";
     device = <&trackball_R>;
+    input-processors =
+        <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_Y_INVERT)>,
+        <&zip_xy_scaler 1 2>;
 };
 
 &spi0 {
