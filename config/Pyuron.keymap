@@ -198,7 +198,7 @@
             layers = <0>;
         };
 
-        l0_grave {
+        l0_gve {
             bindings = <&kp GRAVE>;
             key-positions = <6 8>;
             timeout-ms = <20>;
