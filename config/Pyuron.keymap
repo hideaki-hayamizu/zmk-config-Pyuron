@@ -247,10 +247,10 @@
 
         layer_0 {
             bindings = <
-&kp Q                  &kp W                     &kp E         &kp R         &kp T        &kp Y  &kp U  &kp I          &kp O  &kp P
-&my_mt LEFT_CONTROL A  &kp S                     &kp D         &kp F         &kp G        &kp H  &kp J  &kp K          &kp L  &kp RET
-&my_mt LEFT_SHIFT Z    &kp X                     &kp C         &kp V         &my_lt 3 B   &none  &none  &kp N          &kp M  &kp COMMA
-&kp DOT                &my_mt RIGHT_SHIFT SLASH  &kp LEFT_ALT  &kp LEFT_GUI  &lt 1 SPACE  &none  &none  &kp BACKSPACE  &to 2  &kp RIGHT_CONTROL
+&kp Q                  &kp W                     &kp E         &kp R         &kp T           &kp Y  &kp U  &kp I          &kp O  &kp P
+&my_mt LEFT_CONTROL A  &kp S                     &kp D         &kp F         &kp G           &kp H  &kp J  &kp K          &kp L  &kp RET
+&my_mt LEFT_SHIFT Z    &kp X                     &kp C         &kp V         &my_lt 3 B      &none  &none  &kp N          &kp M  &kp COMMA
+&kp DOT                &my_mt RIGHT_SHIFT SLASH  &kp LEFT_ALT  &kp LEFT_GUI  &my_lt 1 SPACE  &none  &none  &kp BACKSPACE  &to 2  &kp RIGHT_CONTROL
             >;
         };
 
